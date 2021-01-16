@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/depo_tanaman/static/css/main.b6a78438.chunk.css",
-    "main.js": "/depo_tanaman/static/js/main.26364ecf.chunk.js",
-    "main.js.map": "/depo_tanaman/static/js/main.26364ecf.chunk.js.map",
-    "runtime-main.js": "/depo_tanaman/static/js/runtime-main.b54ade42.js",
-    "runtime-main.js.map": "/depo_tanaman/static/js/runtime-main.b54ade42.js.map",
+    "main.css": "/depo_tanaman/static/css/main.bdf77bae.chunk.css",
+    "main.js": "/depo_tanaman/static/js/main.038f2df7.chunk.js",
+    "main.js.map": "/depo_tanaman/static/js/main.038f2df7.chunk.js.map",
+    "runtime-main.js": "/depo_tanaman/static/js/runtime-main.6aabd4e1.js",
+    "runtime-main.js.map": "/depo_tanaman/static/js/runtime-main.6aabd4e1.js.map",
     "static/css/2.0457d1a2.chunk.css": "/depo_tanaman/static/css/2.0457d1a2.chunk.css",
-    "static/js/2.59ce4061.chunk.js": "/depo_tanaman/static/js/2.59ce4061.chunk.js",
-    "static/js/2.59ce4061.chunk.js.map": "/depo_tanaman/static/js/2.59ce4061.chunk.js.map",
-    "static/js/3.db4450f1.chunk.js": "/depo_tanaman/static/js/3.db4450f1.chunk.js",
-    "static/js/3.db4450f1.chunk.js.map": "/depo_tanaman/static/js/3.db4450f1.chunk.js.map",
+    "static/js/2.1fe92a18.chunk.js": "/depo_tanaman/static/js/2.1fe92a18.chunk.js",
+    "static/js/2.1fe92a18.chunk.js.map": "/depo_tanaman/static/js/2.1fe92a18.chunk.js.map",
+    "static/js/3.37ef2e3a.chunk.js": "/depo_tanaman/static/js/3.37ef2e3a.chunk.js",
+    "static/js/3.37ef2e3a.chunk.js.map": "/depo_tanaman/static/js/3.37ef2e3a.chunk.js.map",
     "index.html": "/depo_tanaman/index.html",
     "static/css/2.0457d1a2.chunk.css.map": "/depo_tanaman/static/css/2.0457d1a2.chunk.css.map",
-    "static/css/main.b6a78438.chunk.css.map": "/depo_tanaman/static/css/main.b6a78438.chunk.css.map",
-    "static/js/2.59ce4061.chunk.js.LICENSE.txt": "/depo_tanaman/static/js/2.59ce4061.chunk.js.LICENSE.txt",
+    "static/css/main.bdf77bae.chunk.css.map": "/depo_tanaman/static/css/main.bdf77bae.chunk.css.map",
+    "static/js/2.1fe92a18.chunk.js.LICENSE.txt": "/depo_tanaman/static/js/2.1fe92a18.chunk.js.LICENSE.txt",
     "static/media/alpukat.2f8f66f7.jpg": "/depo_tanaman/static/media/alpukat.2f8f66f7.jpg",
     "static/media/App.css": "/depo_tanaman/static/media/dark-1.d45b8739.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b54ade42.js",
+    "static/js/runtime-main.6aabd4e1.js",
     "static/css/2.0457d1a2.chunk.css",
-    "static/js/2.59ce4061.chunk.js",
-    "static/css/main.b6a78438.chunk.css",
-    "static/js/main.26364ecf.chunk.js"
+    "static/js/2.1fe92a18.chunk.js",
+    "static/css/main.bdf77bae.chunk.css",
+    "static/js/main.038f2df7.chunk.js"
   ]
 }
