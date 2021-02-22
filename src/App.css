@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+.ini-navbar {
+  border-radius: 0 0 30px 30px;
+}
+.navlink {
+  width: 500px;
+  justify-content: space-around;
+}
+.navlink > a {
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transform-origin: bottom right;
+  transition: color 0.3s, /* border 20s ease-out  */;
+}
+.navlink > a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  /* border-bottom: 2px solid white; */
+  display: inline-block;
+}
+.navlink a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: 0.25s ease-out;
+}
+.navlink > a:hover::before {
+  transform: scaleX(1);
+}
+.bm-menu {
+  display: none;
+}
+.bm-overlay {
+  display: none;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/dark-1.jpg);
+  background-size: cover;
+  padding-top: 15%;
+  overflow: hidden;
+}
+
+.banner .container p {
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.banner .container h1 {
+  font-size: 94px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  color: #37cc00;
+}
+.tombol {
+  margin-top: 50px;
+}
+.banner .container a button {
+  background: transparent;
+  color: #2daa00;
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border: 3px solid #2daa00;
+  outline: none;
+  width: 237px;
+  height: 55px;
+  border-radius: 15px;
+  margin-right: 12px;
+  transition: 0.4s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}
+
+.banner .container a button:hover {
+  background: #2daa00;
+  color: #fff;
+}
+.about,
+.bibit {
+  padding-top: 100px;
+}
+.about,
+.bibit,
+.kontak {
+  /* border: 2px solid red; */
+  width: 100%;
+  overflow: hidden;
+  /* padding-top: 10px; */
+  /* height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+/* .about .container {
+    
+  } */
+.about-judul,
+.bibit-judul,
+.kontak-judul {
+  display: flex;
+  justify-content: center;
+}
+.about-judul h1,
+.bibit-judul h1,
+.kontak-judul h1 {
+  color: rgb(37, 37, 37);
+  display: inline-block;
+  text-align: center;
+  border-bottom: 4px solid #8a8a8a;
+  margin-bottom: 100px;
+}
+.about-content p {
+  line-height: 36px;
+  font-size: 18px;
+  color: #777777;
+}
+.bibit-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bibitCards {
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: repeat(100px);
+  grid-auto-columns: 300px;
+  /* grid-auto-columns: 100px; */
+  /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.bibit-footer {
+  display: flex;
+  justify-content: center;
+}
+.lebihBanyak {
+  margin-top: 25px;
+  border: none;
+  outline: none !important;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 6px 25px 6px 25px;
+  background-color: #37ca01;
+  box-shadow: 0 7px 0 #248600;
+  margin-bottom: 30px;
+}
+.lebihBanyak:active {
+  transform: translateY(7px);
+  box-shadow: none;
+}
+.kontak {
+  margin-top: 100px;
+  overflow: hidden;
+  background-color: #156b39;
+}
+.kontak-content {
+  letter-spacing: 1px;
+  color: #fff;
+  /* border: 2px solid purple; */
+}
+
+.kontak-judul h1 {
+  color: #fff;
+  border-bottom: 4px solid #dadada;
+}
+.kontak-luar {
+  /* height: 635px; */
+  background: #156b39;
+  padding-top: 85px;
+}
+.alamat,
+.waa,
+.emaill {
+  display: flex;
+  margin-bottom: 6px;
+}
+.waAdmin {
+  margin: 10px 0 30px 0;
+  font-size: 20px;
+  border-radius: 7px;
+  width: 230px;
+  height: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  /* padding: 5px 40px 5px 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 7px #b6b6b680;
+  background: linear-gradient(
+    90.9deg,
+    rgb(0, 153, 56) 0.5%,
+    rgba(0, 214, 32, 1) 99.7%
+  );
+}
+.waAdmin:hover {
+  filter: brightness(0.9);
+}
+
+.waAdmin h6 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 17px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo * {
+  margin-right: 5px;
+}
+.instagram {
+  margin-right: 10px;
+}
+.instagram a {
+  display: flex;
+  /* letter-spacing: 0; */
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.instagram a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.instagram a h5 {
+  font-family: "Kaushan Script", cursive;
+}
+.isian-form {
+  max-width: 400px;
+  min-width: 150px;
+}
+.tombolKirim {
+  margin-top: 25px;
+  font-weight: 600;
+  border: none;
+  outline: none !important;
+  border-radius: 8px;
+  padding: 6px 25px 6px 25px;
+  color: #156b39;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+  background-color: #98f000;
+  transition: 0.4s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}
+/* .tombolKirim:hover {
+  box-shadow: 0px 6px 17px #b6b6b680;
+  transform: translateY(-1px);
+} */
+.footernya {
+  line-height: 50px;
+  color: #dadada;
+}
+@media (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 26px !important;
+  }
+  .navbar-brandnya {
+    font-size: 28px !important;
+  }
+  .navlink {
+    width: 450px;
+  }
+  .banner {
+    background-position-x: -120px;
+    padding-top: 28%;
+  }
+  .banner .container h1 {
+    font-size: 84px;
+    letter-spacing: 7px;
+  }
+  .banner .container p {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .tombol {
+    margin-top: 38px;
+  }
+  .banner .container a button {
+    font-size: 20px;
+    width: 210px;
+    height: 48px;
+  }
+}
+.namaProduk {
+  font-size: 12px;
+}
+.hargaProduk {
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 24px !important;
+  }
+  .navbar-brandnya {
+    font-size: 26px !important;
+  }
+  .navlink {
+    width: 400px !important;
+  }
+  .banner {
+    background-position-x: -220px;
+    padding-top: 38% !important;
+  }
+  .banner .container h1 {
+    font-size: 70px !important;
+    letter-spacing: 5px;
+  }
+  .banner .container p {
+    font-size: 30px !important;
+    letter-spacing: 2px;
+  }
+  .tombol {
+    margin-top: 35px;
+    display: inline !important;
+  }
+  .banner .container a button {
+    margin-right: 10px !important;
+    font-size: 20px;
+    width: 200px;
+    height: 47px;
+  }
+  .lebihBanyak {
+    padding: 5px 20px 5px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .ini-navbar {
+    border-radius: 0 0 20px 20px;
+    background-color: #156b39 !important;
+  }
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+  .navbar-brandnya {
+    font-size: 20px !important;
+  }
+  .navlink {
+    width: 90% !important;
+  }
+  .navlink a::before {
+    display: none;
+  }
+  .banner {
+    background-position-x: -320px;
+    padding-top: 200px;
+  }
+  .banner .container h1 {
+    font-size: 46px !important;
+    letter-spacing: 5px;
+  }
+  .banner .container p {
+    font-size: 16px !important;
+    letter-spacing: 2px;
+  }
+
+  .tombol {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .banner .container a button {
+    border-radius: 10px;
+    margin-right: 0;
+    font-size: 17px;
+    margin-top: 15px;
+    width: 160px;
+    height: 38px;
+  }
+  .about-judul h1,
+  .bibit-judul h1,
+  .kontak-judul h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .about,
+  .bibit {
+    padding-top: 85px;
+  }
+  .about-content p {
+    line-height: 34px;
+    font-size: 18px;
+  }
+  .lebihBanyak {
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+  }
+  .waAdmin {
+    width: 200px;
+    height: 38px;
+  }
+  .waAdmin h6 {
+    font-size: 16px;
+  }
+  .logo {
+    margin-bottom: 50px;
+  }
+  .instagram a svg {
+    width: 35px;
+  }
+  .instagram a h5 {
+    margin-top: 3px;
+    font-size: 14px;
+  }
+  .tokopedia a svg {
+    width: 90px;
+  }
+  .shopee a svg {
+    width: 50px;
+    transform: translateY(-4px);
+  }
+  .tombolKirim {
+    margin-top: 10px;
+  }
+  /* batas react burger menu */
+  /* batas react burger menu*/
+  /* batas react burger menu */
+
+  /* ---------------------------- */
+  .bm-item {
+    display: inline-block;
+    /* Our sidebar item styling */
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    color: #aefeb3;
+    transition: color 0.2s;
+  }
+
+  .bm-item:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bm-burger-button {
+    position: relative;
+    width: 32px;
+    height: 26px;
+  }
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    height: 4px !important;
+    border-radius: 5px;
+    background: #aefeb3;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    /* border: 2px solid red; */
+    top: -40px !important;
+    right: 5px !important;
+    position: absolute !important;
+    background-color: rgb(21, 107, 57);
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    top: 16px;
+    right: 16px;
+    height: 26px !important;
+    background: #dddfe0;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    margin-top: -1px;
+    background: rgb(21, 107, 57);
+    padding: 3em 2em 0;
+    font-size: 1.15em;
+  }
+  .bm-menu,
+  .bm-overlay {
+    display: block;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    /* border: 2px solid orange; */
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    display: none;
+    /* background: rgb(247, 0, 0) !important; */
+  }
+}
